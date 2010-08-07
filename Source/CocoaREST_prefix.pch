@@ -1,0 +1,12 @@
+/*
+ *  CocoaREST_prefix.pch
+ *  CocoaREST
+ *
+ *  Created by Igor Sales on 10-07-31.
+ *  Copyright 2010 __MyCompanyName__. All rights reserved.
+ *
+ */
+
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#endif
