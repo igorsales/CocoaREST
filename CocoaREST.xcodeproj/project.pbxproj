@@ -7,42 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788346281204AB9C00DBFCBA /* SDNetTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1290FCF237F00806DA0 /* SDNetTaskManager.m */; };
+		788346291204AB9C00DBFCBA /* SDNetTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA12B0FCF237F00806DA0 /* SDNetTask.m */; };
+		7883462A1204ABA600DBFCBA /* SDFacebookTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E92B0FDC35C5003762C3 /* SDFacebookTaskManager.m */; };
+		7883462B1204ABA600DBFCBA /* SDFacebookTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E92F0FDC35FD003762C3 /* SDFacebookTask.m */; };
+		7883462C1204ABA600DBFCBA /* SDTwitterTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA48C0FD06D9600806DA0 /* SDTwitterTaskManager.m */; };
+		7883462D1204ABA600DBFCBA /* SDTwitterTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA49D0FD06FCC00806DA0 /* SDTwitterTask.m */; };
+		7883462E1204ABB500DBFCBA /* SDFriendfeedTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D89F10FD61DF7002A71C6 /* SDFriendfeedTaskManager.m */; };
+		7883462F1204ABB500DBFCBA /* SDFriendfeedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D89F50FD61E44002A71C6 /* SDFriendfeedTask.m */; };
+		788346301204ABB500DBFCBA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1250FCF237F00806DA0 /* NSData+Base64.m */; };
+		788346311204ABB500DBFCBA /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1270FCF237F00806DA0 /* NSString+UUID.m */; };
+		788346321204ABB500DBFCBA /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA42E0FD0437F00806DA0 /* NSColor+Hex.m */; };
+		788346341204AC1E00DBFCBA /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E27D0FF3C012006D9C6F /* yajl_alloc.c */; };
+		788346351204AC1E00DBFCBA /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E27F0FF3C012006D9C6F /* yajl_buf.c */; };
+		788346361204AC1E00DBFCBA /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2830FF3C012006D9C6F /* yajl_encode.c */; };
+		788346371204AC1E00DBFCBA /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2850FF3C012006D9C6F /* yajl_gen.c */; };
+		788346381204AC1E00DBFCBA /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2870FF3C012006D9C6F /* yajl_lex.c */; };
+		788346391204AC1E00DBFCBA /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28A0FF3C012006D9C6F /* yajl_parser.c */; };
+		7883463A1204AC1E00DBFCBA /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28C0FF3C012006D9C6F /* yajl.c */; };
+		7883463B1204AC1E00DBFCBA /* YAJLDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28E0FF3C012006D9C6F /* YAJLDecoder.m */; };
+		788346431204ACA600DBFCBA /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0E2990FF3C02F006D9C6F /* libcrypto.dylib */; };
+		788346481204ACF300DBFCBA /* SDIdenticaTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA6CA0FD090DC00806DA0 /* SDIdenticaTaskManager.m */; };
+		788346491204ACF300DBFCBA /* SDIdenticaTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA6CE0FD0911400806DA0 /* SDIdenticaTask.m */; };
+		7883464E1204AD1A00DBFCBA /* CocoaREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788346231204AB4200DBFCBA /* CocoaREST.framework */; };
+		788346571204AD5B00DBFCBA /* SDNetTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA1280FCF237F00806DA0 /* SDNetTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788346581204AD5B00DBFCBA /* SDNetTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA12A0FCF237F00806DA0 /* SDNetTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788346591204AD5B00DBFCBA /* SDNetTask+Subclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA5B20FD0818C00806DA0 /* SDNetTask+Subclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465A1204AD5B00DBFCBA /* SDFacebookTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B3E92A0FDC35C5003762C3 /* SDFacebookTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465B1204AD5B00DBFCBA /* SDFacebookTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B3E92E0FDC35FD003762C3 /* SDFacebookTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465C1204AD5B00DBFCBA /* SDTwitterTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA48B0FD06D9600806DA0 /* SDTwitterTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465D1204AD5B00DBFCBA /* SDTwitterTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA49C0FD06FCC00806DA0 /* SDTwitterTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465E1204AD5B00DBFCBA /* SDIdenticaTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA6C90FD090DC00806DA0 /* SDIdenticaTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7883465F1204AD5B00DBFCBA /* SDIdenticaTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BFA6CD0FD0911400806DA0 /* SDIdenticaTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788346601204AD5B00DBFCBA /* SDFriendfeedTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 944D89F00FD61DF7002A71C6 /* SDFriendfeedTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788346611204AD5B00DBFCBA /* SDFriendfeedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 944D89F40FD61E44002A71C6 /* SDFriendfeedTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788347CD1204AE1A00DBFCBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		78834B87120E1F9E00DBFCBA /* CocoaREST.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 788346231204AB4200DBFCBA /* CocoaREST.framework */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		944D89F20FD61DF7002A71C6 /* SDFriendfeedTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D89F10FD61DF7002A71C6 /* SDFriendfeedTaskManager.m */; };
-		944D89F60FD61E44002A71C6 /* SDFriendfeedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 944D89F50FD61E44002A71C6 /* SDFriendfeedTask.m */; };
-		94B3E92C0FDC35C5003762C3 /* SDFacebookTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E92B0FDC35C5003762C3 /* SDFacebookTaskManager.m */; };
-		94B3E9300FDC35FD003762C3 /* SDFacebookTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B3E92F0FDC35FD003762C3 /* SDFacebookTask.m */; };
 		94BFA1060FCF222D00806DA0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58150DA1D0A300B32029 /* MainMenu.xib */; };
 		94BFA1220FCF236800806DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1200FCF236800806DA0 /* AppDelegate.m */; };
-		94BFA12D0FCF237F00806DA0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1250FCF237F00806DA0 /* NSData+Base64.m */; };
-		94BFA12E0FCF237F00806DA0 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1270FCF237F00806DA0 /* NSString+UUID.m */; };
-		94BFA12F0FCF237F00806DA0 /* SDNetTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA1290FCF237F00806DA0 /* SDNetTaskManager.m */; };
-		94BFA1300FCF237F00806DA0 /* SDNetTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA12B0FCF237F00806DA0 /* SDNetTask.m */; };
-		94BFA42F0FD0437F00806DA0 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA42E0FD0437F00806DA0 /* NSColor+Hex.m */; };
-		94BFA48D0FD06D9600806DA0 /* SDTwitterTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA48C0FD06D9600806DA0 /* SDTwitterTaskManager.m */; };
-		94BFA49E0FD06FCC00806DA0 /* SDTwitterTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA49D0FD06FCC00806DA0 /* SDTwitterTask.m */; };
-		94BFA6CB0FD090DC00806DA0 /* SDIdenticaTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA6CA0FD090DC00806DA0 /* SDIdenticaTaskManager.m */; };
-		94BFA6CF0FD0911400806DA0 /* SDIdenticaTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFA6CE0FD0911400806DA0 /* SDIdenticaTask.m */; };
-		94D0E28F0FF3C012006D9C6F /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E27D0FF3C012006D9C6F /* yajl_alloc.c */; };
-		94D0E2900FF3C012006D9C6F /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E27F0FF3C012006D9C6F /* yajl_buf.c */; };
-		94D0E2910FF3C012006D9C6F /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2830FF3C012006D9C6F /* yajl_encode.c */; };
-		94D0E2920FF3C012006D9C6F /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2850FF3C012006D9C6F /* yajl_gen.c */; };
-		94D0E2930FF3C012006D9C6F /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E2870FF3C012006D9C6F /* yajl_lex.c */; };
-		94D0E2940FF3C012006D9C6F /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28A0FF3C012006D9C6F /* yajl_parser.c */; };
-		94D0E2950FF3C012006D9C6F /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28C0FF3C012006D9C6F /* yajl.c */; };
-		94D0E2960FF3C012006D9C6F /* YAJLDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0E28E0FF3C012006D9C6F /* YAJLDecoder.m */; };
-		94D0E29A0FF3C02F006D9C6F /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D0E2990FF3C02F006D9C6F /* libcrypto.dylib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7883464C1204AD1400DBFCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788346221204AB4100DBFCBA;
+			remoteInfo = CocoaREST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78834BA8120E1FBB00DBFCBA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78834B87120E1F9E00DBFCBA /* CocoaREST.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* SDSocialNetwork_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSocialNetwork_Prefix.pch; sourceTree = "<group>"; };
+		788346231204AB4200DBFCBA /* CocoaREST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaREST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		788346241204AB4200DBFCBA /* CocoaREST-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaREST-Info.plist"; sourceTree = "<group>"; };
+		788346331204ABFE00DBFCBA /* CocoaREST_prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaREST_prefix.pch; path = Source/CocoaREST_prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SDSocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDSocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944D89F00FD61DF7002A71C6 /* SDFriendfeedTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDFriendfeedTaskManager.h; path = Source/SDFriendfeedTaskManager.h; sourceTree = "<group>"; };
@@ -96,12 +135,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		788346211204AB4100DBFCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788346431204ACA600DBFCBA /* libcrypto.dylib in Frameworks */,
+				788347CD1204AE1A00DBFCBA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				94D0E29A0FF3C02F006D9C6F /* libcrypto.dylib in Frameworks */,
+				7883464E1204AD1A00DBFCBA /* CocoaREST.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
-				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -141,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* SDSocialNetwork.app */,
+				788346231204AB4200DBFCBA /* CocoaREST.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +201,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				788346241204AB4200DBFCBA /* CocoaREST-Info.plist */,
 			);
 			name = SDSocialNetwork;
 			sourceTree = "<group>";
@@ -162,6 +211,7 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* SDSocialNetwork_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				788346331204ABFE00DBFCBA /* CocoaREST_prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -294,7 +344,46 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7883461E1204AB4100DBFCBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788346571204AD5B00DBFCBA /* SDNetTaskManager.h in Headers */,
+				788346581204AD5B00DBFCBA /* SDNetTask.h in Headers */,
+				788346591204AD5B00DBFCBA /* SDNetTask+Subclassing.h in Headers */,
+				7883465A1204AD5B00DBFCBA /* SDFacebookTaskManager.h in Headers */,
+				7883465B1204AD5B00DBFCBA /* SDFacebookTask.h in Headers */,
+				7883465C1204AD5B00DBFCBA /* SDTwitterTaskManager.h in Headers */,
+				7883465D1204AD5B00DBFCBA /* SDTwitterTask.h in Headers */,
+				7883465E1204AD5B00DBFCBA /* SDIdenticaTaskManager.h in Headers */,
+				7883465F1204AD5B00DBFCBA /* SDIdenticaTask.h in Headers */,
+				788346601204AD5B00DBFCBA /* SDFriendfeedTaskManager.h in Headers */,
+				788346611204AD5B00DBFCBA /* SDFriendfeedTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		788346221204AB4100DBFCBA /* CocoaREST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788346271204AB4200DBFCBA /* Build configuration list for PBXNativeTarget "CocoaREST" */;
+			buildPhases = (
+				7883461E1204AB4100DBFCBA /* Headers */,
+				7883461F1204AB4100DBFCBA /* Resources */,
+				788346201204AB4100DBFCBA /* Sources */,
+				788346211204AB4100DBFCBA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaREST;
+			productName = CocoaREST;
+			productReference = 788346231204AB4200DBFCBA /* CocoaREST.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8D1107260486CEB800E47090 /* SDSocialNetwork */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SDSocialNetwork" */;
@@ -302,10 +391,12 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				78834BA8120E1FBB00DBFCBA /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7883464D1204AD1400DBFCBA /* PBXTargetDependency */,
 			);
 			name = SDSocialNetwork;
 			productInstallPath = "$(HOME)/Applications";
@@ -326,11 +417,19 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* SDSocialNetwork */,
+				788346221204AB4100DBFCBA /* CocoaREST */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7883461F1204AB4100DBFCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,39 +441,108 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		788346201204AB4100DBFCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788346341204AC1E00DBFCBA /* yajl_alloc.c in Sources */,
+				788346351204AC1E00DBFCBA /* yajl_buf.c in Sources */,
+				788346361204AC1E00DBFCBA /* yajl_encode.c in Sources */,
+				788346371204AC1E00DBFCBA /* yajl_gen.c in Sources */,
+				788346381204AC1E00DBFCBA /* yajl_lex.c in Sources */,
+				788346391204AC1E00DBFCBA /* yajl_parser.c in Sources */,
+				7883463A1204AC1E00DBFCBA /* yajl.c in Sources */,
+				7883463B1204AC1E00DBFCBA /* YAJLDecoder.m in Sources */,
+				7883462E1204ABB500DBFCBA /* SDFriendfeedTaskManager.m in Sources */,
+				7883462F1204ABB500DBFCBA /* SDFriendfeedTask.m in Sources */,
+				788346301204ABB500DBFCBA /* NSData+Base64.m in Sources */,
+				788346311204ABB500DBFCBA /* NSString+UUID.m in Sources */,
+				788346321204ABB500DBFCBA /* NSColor+Hex.m in Sources */,
+				7883462A1204ABA600DBFCBA /* SDFacebookTaskManager.m in Sources */,
+				7883462B1204ABA600DBFCBA /* SDFacebookTask.m in Sources */,
+				7883462C1204ABA600DBFCBA /* SDTwitterTaskManager.m in Sources */,
+				7883462D1204ABA600DBFCBA /* SDTwitterTask.m in Sources */,
+				788346281204AB9C00DBFCBA /* SDNetTaskManager.m in Sources */,
+				788346291204AB9C00DBFCBA /* SDNetTask.m in Sources */,
+				788346481204ACF300DBFCBA /* SDIdenticaTaskManager.m in Sources */,
+				788346491204ACF300DBFCBA /* SDIdenticaTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				94BFA1220FCF236800806DA0 /* AppDelegate.m in Sources */,
-				94BFA12D0FCF237F00806DA0 /* NSData+Base64.m in Sources */,
-				94BFA12E0FCF237F00806DA0 /* NSString+UUID.m in Sources */,
-				94BFA12F0FCF237F00806DA0 /* SDNetTaskManager.m in Sources */,
-				94BFA1300FCF237F00806DA0 /* SDNetTask.m in Sources */,
-				94BFA42F0FD0437F00806DA0 /* NSColor+Hex.m in Sources */,
-				94BFA48D0FD06D9600806DA0 /* SDTwitterTaskManager.m in Sources */,
-				94BFA49E0FD06FCC00806DA0 /* SDTwitterTask.m in Sources */,
-				94BFA6CB0FD090DC00806DA0 /* SDIdenticaTaskManager.m in Sources */,
-				94BFA6CF0FD0911400806DA0 /* SDIdenticaTask.m in Sources */,
-				944D89F20FD61DF7002A71C6 /* SDFriendfeedTaskManager.m in Sources */,
-				944D89F60FD61E44002A71C6 /* SDFriendfeedTask.m in Sources */,
-				94B3E92C0FDC35C5003762C3 /* SDFacebookTaskManager.m in Sources */,
-				94B3E9300FDC35FD003762C3 /* SDFacebookTask.m in Sources */,
-				94D0E28F0FF3C012006D9C6F /* yajl_alloc.c in Sources */,
-				94D0E2900FF3C012006D9C6F /* yajl_buf.c in Sources */,
-				94D0E2910FF3C012006D9C6F /* yajl_encode.c in Sources */,
-				94D0E2920FF3C012006D9C6F /* yajl_gen.c in Sources */,
-				94D0E2930FF3C012006D9C6F /* yajl_lex.c in Sources */,
-				94D0E2940FF3C012006D9C6F /* yajl_parser.c in Sources */,
-				94D0E2950FF3C012006D9C6F /* yajl.c in Sources */,
-				94D0E2960FF3C012006D9C6F /* YAJLDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7883464D1204AD1400DBFCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788346221204AB4100DBFCBA /* CocoaREST */;
+			targetProxy = 7883464C1204AD1400DBFCBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		788346251204AB4200DBFCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/CocoaREST_prefix.pch;
+				INFOPLIST_FILE = "CocoaREST-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CocoaREST;
+			};
+			name = Debug;
+		};
+		788346261204AB4200DBFCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/CocoaREST_prefix.pch;
+				INFOPLIST_FILE = "CocoaREST-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CocoaREST;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,6 +619,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		788346271204AB4200DBFCBA /* Build configuration list for PBXNativeTarget "CocoaREST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788346251204AB4200DBFCBA /* Debug */,
+				788346261204AB4200DBFCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SDSocialNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
